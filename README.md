@@ -19,8 +19,8 @@ The MERN stack has been on my bucket list for a long time, and to make learning 
 ![TikTok](tiktok.png)
 
 For a detailed implementation of the **frontend**, **backend**, and **AWS deployment**, refer to the respective markdown files:
-- [Frontend](https://github.com/sathya-narine/TikTok/blob/main/tiktok/FrontEnd.md)
-- [Backend](https://github.com/sathya-narine/TikTok/blob/main/tiktok-backend/Backend.md)
+- [Frontend.md](https://github.com/sathya-narine/TikTok/blob/main/tiktok/FrontEnd.md)
+- [Backend.md](https://github.com/sathya-narine/TikTok/blob/main/tiktok-backend/Backend.md)
 - [Deployment.md](deployment.md)
 
 ---
@@ -43,7 +43,7 @@ Create a cluster and a database.
 
 Create a collection and get the connection URI.
 
-For a detailed guide, refer to Backend.md.
+For a detailed guide, refer to [Backend.md](https://github.com/sathya-narine/TikTok/blob/main/tiktok-backend/Backend.md).
 #### 4. Configure Backend
 Navigate to the backend directory and create a .env file:
 
