@@ -18,6 +18,7 @@ The UI is divided into the following sections:
 - **Header**: Displays the app logo and channel name.
 
 A labeled image will be provided to visually demonstrate these sections.
+![UI Breakdown](LabeledUI.png)
 
 ### Setting Up the Frontend
 To get started with the frontend, follow these steps:
@@ -31,3 +32,19 @@ To get started with the frontend, follow these steps:
    npx create-react-app tiktok
    cd tiktok
    npm start
+3. **Clean Up Default Files**
+   Remove unnecessary default files from the src directory:
+   ```sh
+   rm src/App.test.js src/logo.svg src/setupTests.js
+4. **Install Required Packages
+   Install the following packages for UI components and functionality:
+   ```sh
+   npm install @mui/icons-material
+   npm install react-ticker --force
+5. **Organize UI Components
+   All UI components are placed inside the src directory for better maintainability and structure.
+
+## Helpful Video Resource
+I followed this tutorial to implement the basic functionality of the TikTok clone. It covers the core React setup and UI structure:
+https://www.youtube.com/watch?v=g8yGxDMyGiE
+
