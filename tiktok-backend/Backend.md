@@ -60,7 +60,9 @@ Example:
 MONGO_URI=mongodb+srv://<user>:<password>@cluster0.psdwk.mongodb.net/<collection>?retryWrites=true&w=majority&appName=Cluster0
 
 Test API Endpoints in Postman
-
+![Test Endpoint](backend1.png)
+![POST Endpoint](backend2.png)
+![GET Endpoint](backend3.png)
 
 
 
