@@ -1,6 +1,4 @@
-# TikTok
-
-# TikTok Clone - MERN Stack Implementation
+# TikTok - MERN Stack Implementation
 
 ## Introduction
 
@@ -38,31 +36,42 @@ The frontend and backend have been containerized using Docker, making it super e
 
 #### 3. Set Up MongoDB Atlas
 Create a MongoDB Cloud Account at MongoDB Atlas.
+
 Create a cluster and a database.
+
 Create a collection and get the connection URI.
+
 For a detailed guide, refer to Backend.md.
 #### 4. Configure Backend
 Navigate to the backend directory and create a .env file:
 
 
   cd TikTok/tiktok-backend
+  
   Create a .env file and add:
 
-
 MONGO_URI=mongodb+srv://<user>:<password>@cluster0.psdwk.mongodb.net/<collection>?retryWrites=true&w=majority&appName=Cluster0
+
 ### 5. Build and Run Docker Containers
 Frontend:
 
 cd TikTok/tiktok
 docker build -t tiktok-frontend .
+
 docker images  # Check if the image was created successfully
+
 docker run -d -p 3000:3000 --name tiktok-frontend tiktok-frontend
+
 docker ps  # Verify that the container is running
+
 Backend:
 
 cd TikTok/tiktok-backend
+
 docker build -t tiktok-backend .
+
 docker run -d -p 9000:9000 --name tiktok-backend tiktok-backend
+
 ### 6. Open the Application
 Once both containers are running, open the frontend in your browser:
 http://localhost:3000/
