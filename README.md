@@ -16,6 +16,8 @@ The MERN stack has been on my bucket list for a long time, and to make learning 
 - **Database**: MongoDB
 - **Deployment**: Dockerized for easy deployment
 
+![TikTok](tiktok.png)
+
 For a detailed implementation of the **frontend**, **backend**, and **AWS deployment**, refer to the respective markdown files:
 - [Frontend.md](tiktok/frontend.md)
 - [Backend.md](tiktok-backend/backend.md)
