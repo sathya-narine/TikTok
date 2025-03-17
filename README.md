@@ -19,8 +19,8 @@ The MERN stack has been on my bucket list for a long time, and to make learning 
 ![TikTok](tiktok.png)
 
 For a detailed implementation of the **frontend**, **backend**, and **AWS deployment**, refer to the respective markdown files:
-- [Frontend.md](tiktok/frontend.md)
-- [Backend.md](tiktok-backend/backend.md)
+- [a link](https://github.com/sathya-narine/TikTok/blob/main/tiktok/FrontEnd.md)
+- [a link](https://github.com/sathya-narine/TikTok/blob/main/tiktok-backend/Backend.md)
 - [Deployment.md](deployment.md)
 
 ---
