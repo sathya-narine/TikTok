@@ -1,0 +1,10 @@
+.VideoHeader{
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  color: white;
+}
+
+.channel {
+  font-size: large;
+}
