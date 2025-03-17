@@ -36,12 +36,12 @@ To get started with the frontend, follow these steps:
    Remove unnecessary default files from the src directory:
    ```sh
    rm src/App.test.js src/logo.svg src/setupTests.js
-4. **Install Required Packages
+4. **Install Required Packages**
    Install the following packages for UI components and functionality:
    ```sh
    npm install @mui/icons-material
    npm install react-ticker --force
-5. **Organize UI Components
+5. **Organize UI Components**
    All UI components are placed inside the src directory for better maintainability and structure.
 
 ## Helpful Video Resource
