@@ -15,7 +15,7 @@
   - **Type:** SSH
   - **Source:** My IP (allows only your system to access the instance).
 - Click **Create Instance**.
-
+![ec2](cloud1.png)
 ## 3. Connect to the EC2 Instance
 - Open Git Bash or a CLI in the same folder where the `.pem` file is downloaded.
 - Use the SSH command provided under **Instances → Connect** to access the instance.
@@ -71,7 +71,7 @@ cd TikTok/tiktok-backend
 docker build -t tiktok-backend .
 docker run -d -p 9000:9000 --name tiktok-backend tiktok-backend
 ```
-
+![docker](cloud2.png)
 ## 8. Configure Security Group for Web Access
 - In the **Security Group** of the instance, add the following rules:
   - **TCP Port 3000** → Source: Any IP (for frontend access).
@@ -81,5 +81,5 @@ docker run -d -p 9000:9000 --name tiktok-backend tiktok-backend
 - Copy the **Public IPv4 Address** of the EC2 instance.
 - Open a browser and visit: `http://<public-ip>:3000`
 - Your MERN project should now be accessible.
-
+![deployment](cloud3.png)
 *(Optional: Ensure frontend can communicate with backend by adjusting security group settings for port 9000 if required.)*
